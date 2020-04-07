@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Part-1-Spring-Ioc</module>
+        <module>Part-2-Spring-Ioc-hellospring</module>
+        <module>Part-3-Spring-DI</module>
     </modules>
 
     <dependencies>

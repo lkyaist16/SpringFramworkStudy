@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="mysqlImpl" class="com.lkyi.dao.UserDaoMysqlImpl" />
+    <bean id="oracleImpl" class="com.lkyi.dao.UserDaoOracleImpl" />
+
+    <bean id="UserServiceImpl" class="com.lkyi.service.UserServiceImpl">
+    <!--
+    ref: 引用对象
+    value: 基本属性值
+    -->
+        <property name="userDao" ref="mysqlImpl" />
+    </bean>
+
+    <bean id="user" class="com.lkyi.po.User" >
+        <property name="name" value="David" />
+    </bean>
+</beans>

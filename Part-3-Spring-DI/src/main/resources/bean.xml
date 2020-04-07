@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.lkyi.po.Address"/>
+
+    <bean id="student" class="com.lkyi.po.Student">
+        <property name="name" value="David"/>
+        <property name="address" ref="address"/>
+        <property name="books">
+            <array>
+                <value>Java并发编程的艺术</value>
+                <value>深入浅出Java虚拟机</value>
+                <value>Thinking in Java</value>
+            </array>
+        </property>
+
+        <property name="hobbies">
+            <list>
+                <value>football</value>
+                <value>basketball</value>
+                <value>swimming</value>
+                <value>singing</value>
+            </list>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="身份证" value="450721199408200098"/>
+            </map>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>LOL</value>
+            </set>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="学号">1400120213</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>
