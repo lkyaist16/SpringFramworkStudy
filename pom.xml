@@ -12,6 +12,8 @@
         <module>Part-1-Spring-Ioc</module>
         <module>Part-2-Spring-Ioc-hellospring</module>
         <module>Part-3-Spring-DI</module>
+        <module>Part-4-Spring-anno</module>
+        <module>Part-5-Spring-appconfig</module>
     </modules>
 
     <dependencies>
