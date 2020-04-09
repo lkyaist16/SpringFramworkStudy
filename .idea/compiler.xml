@@ -2,15 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Part-6-Spring-proxy" />
         <module name="Part-3-Spring-DI" />
-        <module name="Part-2-Spring-Ioc-hellospring" />
-        <module name="Part-5-Spring-appconfig" />
-        <module name="Part1-Spring-Ioc" />
         <module name="Part-4-Spring-anno" />
+        <module name="Part-5-Spring-appconfig" />
+        <module name="Part-1-Spring-Ioc" />
+        <module name="Part-2-Spring-Ioc-hellospring" />
+        <module name="Part-8-Spring-transaction" />
+        <module name="Part-7-Spring-aop" />
       </profile>
     </annotationProcessing>
   </component>
