@@ -17,6 +17,7 @@
         <module>Part-6-Spring-proxy</module>
         <module>Part-7-Spring-aop</module>
         <module>Part-8-Spring-transaction</module>
+        <module>Part-9-Spring-com.factory</module>
     </modules>
 
     <dependencies>

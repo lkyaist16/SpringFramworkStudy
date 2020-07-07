@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Part-6-Spring-proxy" />
         <module name="Part-3-Spring-DI" />
+        <module name="Part-9-Spring-factory" />
         <module name="Part-4-Spring-anno" />
         <module name="Part-5-Spring-appconfig" />
         <module name="Part-1-Spring-Ioc" />
