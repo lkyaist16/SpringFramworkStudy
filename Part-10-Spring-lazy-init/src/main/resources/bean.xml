@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Coffee中无注入Tea，Coffee会在容器初始化时进行实例化，Tea不会-->
+<!--    <bean id="Coffee" class="com.po.Coffee" lazy-init="false">-->
+<!--    </bean>-->
+
+    <!--Coffee中注入Tea，由于Coffee不是lazy-init，Tea也会在容器初始化时进行实例化-->
+    <bean id="Coffee" class="com.po.Coffee" lazy-init="false">
+        <property name="tea" ref="Tea"></property>
+    </bean>
+
+    <bean id="Tea" class="com.po.Tea" lazy-init="true">
+    </bean>
+
+</beans>
