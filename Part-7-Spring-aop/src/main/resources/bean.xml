@@ -10,13 +10,17 @@
     <bean id="log" class="com.lkyi.demo1.log.Log"/>
     <bean id="afterLog" class="com.lkyi.demo1.log.AfterLog"/>
 
+<!--   自定义切点的方式实现AOP-->
 <!--    <aop:config>-->
 <!--        <aop:pointcut id="pointcut" expression="execution(* com.lkyi.demo1.service.UserServiceImpl.*(..))"/>-->
 <!--        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>-->
 <!--        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>-->
 <!--    </aop:config>-->
 
+<!--    注解的方式实现AOP-->
     <bean id="annotationPointCut" class="com.lkyi.demo2.AnnotationPointCut"/>
     <aop:aspectj-autoproxy />
+
+
 
 </beans>
