@@ -13,7 +13,13 @@
         <property name="tea" ref="Tea"></property>
     </bean>
 
-    <bean id="Tea" class="com.po.Tea" lazy-init="true">
+<!--    <bean id="Tea" class="com.po.Tea" lazy-init="true">-->
+<!--    </bean>-->
+
+
+    <!--lazy-init 默认为false-->
+    <bean id="Tea" class="com.po.Tea">
     </bean>
+
 
 </beans>
