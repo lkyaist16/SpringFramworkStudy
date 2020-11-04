@@ -18,7 +18,7 @@
         <module>Part-7-Spring-aop</module>
         <module>Part-8-Spring-transaction</module>
         <module>Part-9-Spring-factory</module>
-        <module>Part-10-Spring-lazy-init</module>
+        <module>Part-10-Spring-bean-init</module>
     </modules>
 
     <dependencies>

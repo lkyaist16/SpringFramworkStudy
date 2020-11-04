@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd25632b-cda6-48a9-bbef-d917b050c0c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/java/com/po/AbstractTeaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/java/com/po/TeaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/resources/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/classes/com/po/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/classes/com/po/Tea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/classes/com/po/TeaFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/classes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-10-Spring-lazy-init/target/test-classes/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-10-Spring-lazy-init/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-10-Spring-lazy-init/src/main/java/com/po/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/java/com/po/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-10-Spring-lazy-init/src/main/java/com/po/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/java/com/po/Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-10-Spring-lazy-init/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-10-Spring-lazy-init/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Part-10-Spring-bean-init/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gAiRo4762TinDbFaQPuetJ3TTl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="Part-10-Spring-bean-init" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd25632b-cda6-48a9-bbef-d917b050c0c1" name="Default Changelist" comment="" />
+      <created>1597563791801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597563791801</updated>
+      <workItem from="1597563793540" duration="1531000" />
+      <workItem from="1597670144222" duration="1324000" />
+      <workItem from="1599204826280" duration="95000" />
+      <workItem from="1604309288598" duration="1109000" />
+      <workItem from="1604386735953" duration="1175000" />
+      <workItem from="1604468844209" duration="1648000" />
+      <workItem from="1604470536306" duration="609000" />
+      <workItem from="1604471214159" duration="2376000" />
+    </task>
+    <task id="LOCAL-00001" summary="mac首次提交">
+      <created>1597670715239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597670715239</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix：修改lazy-init注释">
+      <created>1604309567819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604309567819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mac首次提交" />
+    <MESSAGE value="fix：修改lazy-init注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix：修改lazy-init注释" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1597670688643">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1597670688643" />
+    <state x="158" y="23" key="CommitChangelistDialog2" timestamp="1604309567564">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="158" y="23" key="CommitChangelistDialog2/0.23.1440.810@0.23.1440.810" timestamp="1604309567564" />
+    <state width="1398" height="250" key="GridCell.Tab.0.bottom" timestamp="1604473966518">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1604473966518" />
+    <state width="1398" height="250" key="GridCell.Tab.0.center" timestamp="1604473966516">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1604473966516" />
+    <state width="1398" height="250" key="GridCell.Tab.0.left" timestamp="1604473966515">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1604473966515" />
+    <state width="1398" height="250" key="GridCell.Tab.0.right" timestamp="1604473966517">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1604473966517" />
+    <state width="1398" height="250" key="GridCell.Tab.1.bottom" timestamp="1604473955486">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.bottom/0.23.1440.810@0.23.1440.810" timestamp="1604473955486" />
+    <state width="1398" height="250" key="GridCell.Tab.1.center" timestamp="1604473955485">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.center/0.23.1440.810@0.23.1440.810" timestamp="1604473955485" />
+    <state width="1398" height="250" key="GridCell.Tab.1.left" timestamp="1604473955485">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.left/0.23.1440.810@0.23.1440.810" timestamp="1604473955485" />
+    <state width="1398" height="250" key="GridCell.Tab.1.right" timestamp="1604473955485">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="250" key="GridCell.Tab.1.right/0.23.1440.810@0.23.1440.810" timestamp="1604473955485" />
+    <state x="221" y="23" key="SettingsEditor" timestamp="1604471180808">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1604471180808" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1597566508041" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1597670878515">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.810@0.23.1440.810" timestamp="1597670878515" />
+    <state x="340" y="119" key="spring file set editor" timestamp="1604469027774">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="340" y="119" key="spring file set editor/0.23.1440.810@0.23.1440.810" timestamp="1604469027774" />
+  </component>
+</project>

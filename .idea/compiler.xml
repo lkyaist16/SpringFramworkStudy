@@ -16,7 +16,7 @@
         <module name="Part-2-Spring-Ioc-hellospring" />
         <module name="Part-8-Spring-transaction" />
         <module name="Part-7-Spring-aop" />
-        <module name="Part-10-Spring-lazy-init" />
+        <module name="Part-10-Spring-bean-init" />
       </profile>
     </annotationProcessing>
   </component>
